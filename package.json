@@ -1,0 +1,41 @@
+{
+  "name": "chat-app-learn-with-sumit",
+  "version": "1.0.0",
+  "description": "A simple chat application like what's app where media sharing can be done beside doing only cht",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "SET NODE_ENV=development && nodemon app.js",
+    "start": "SET NODE_ENV=production && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sazzad-Anwar/chat-app.git"
+  },
+  "keywords": [
+    "chat-app",
+    "socket",
+    "ejs",
+    "mongodb"
+  ],
+  "author": "Mohammad Sazzad Bin Anwar",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Sazzad-Anwar/chat-app/issues"
+  },
+  "homepage": "https://github.com/Sazzad-Anwar/chat-app#readme"
+}
